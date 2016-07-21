@@ -34,35 +34,32 @@ public class Trade {
 		this.price = price;
 	}
 
+	/**
+	 * @return the time stamp
+	 */
 	public Date getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(Date timestamp) {
-		this.timestamp = timestamp;
-	}
-
+	/**
+	 * @return the amount
+	 */
 	public int getAmount() {
 		return amount;
 	}
 
-	public void setAmount(int amount) {
-		this.amount = amount;
-	}
-
+	/**
+	 * @return the tradeType
+	 */
 	public TradeType getTradeType() {
 		return tradeType;
 	}
 
-	public void setTradeType(TradeType tradeType) {
-		this.tradeType = tradeType;
-	}
-
+	/**
+	 * @return the price
+	 */
 	public int getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
-		this.price = price;
-	}
 }
